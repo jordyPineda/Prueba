@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.navBar_color{
+    display: inline-block;
+    background-color: rgba(91, 200, 98, 0.619);
+    background-image: url("https://wallpaperaccess.com/full/1398611.jpg");
+
+    height: 200vh;
+    width: 220px;
+}
+
+.navBar{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 200px;
+}
+
+.navBar .img_nav{
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.navBar .img_nav img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navBar hr{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    border: 0px;
+    margin-bottom: 40px;
+}
+
+.navBar .opcion{
+
+    padding-left: 15px;
+    padding-top: 6px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.navBar .opcion a{
+    text-decoration: none;
+}
+
+.navBar .opcion:hover{
+    background-color: rgb(101, 101, 101);
+}
+
+

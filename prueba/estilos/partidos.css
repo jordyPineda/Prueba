@@ -1,0 +1,119 @@
+.contenedor{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 50px;
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: 191vh;
+    background-image: url("https://wallpaperaccess.com/full/1398611.jpg");
+}
+
+
+
+
+/*
+Opciones de cuadrangulares
+*/
+
+.opciones{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: rgba(101, 101, 101, 0.395);
+}
+
+
+
+/*
+Tabla de puntuaciones
+*/
+
+
+.contenedor_tabla{
+    display: inline-block;
+    width: 820px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(59, 157, 103, 0.696);
+    box-shadow: 5px 5px 5px rgb(45, 13, 13);
+    color: white;
+   
+}
+.contenedor_tabla table {
+    width: 100%;
+ }
+.contenedor_tabla th {
+    background-color: rgba(59, 157, 103, 0.874);;
+    width: 25%;
+ }
+ .contenedor_tabla td {
+    text-align: center;
+ }
+
+
+
+
+
+/*
+Partidos
+*/
+
+.contenedor_partidos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+
+.marcador_partido{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    justify-content: space-between;
+
+    margin: 10px;
+    border-radius: 10px;
+
+    color: white;
+    background-color: rgba(85, 159, 90, 0.505);
+    box-shadow: 5px 5px 5px rgb(45, 13, 13);
+}
+.marcador_partido p{
+    margin: 0;
+    display: inline-block;
+    width: 200px;
+    font-size:20px;
+    margin-left: 50px;
+}
+
+.marcador_partido input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.marcador_partido button{
+    margin: auto;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+.marcador_partido button:hover{
+    border: 3px solid rgb(68, 128, 76);
+}

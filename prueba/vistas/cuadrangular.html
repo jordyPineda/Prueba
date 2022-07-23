@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../estilos/cuadrangular.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../estilos/navBar.css'>
+</head>
+<body>
+    <div class="navBar_color">
+        <div class="navBar">
+            <div class="img_nav">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6V4YrHtgYOEwOMaoyijH64pQzm2RbJGyLYA&usqp=CAU" alt="balon"/>
+            </div>
+            <hr/>
+            <div class="opcion"<><a href="partidos.html">Ver Cuadrangular</a></div>
+            <div class="opcion"><a href="cuadrangular.html">Crear cuadrangular</a></div>
+        </div>
+    </div>
+    <div class="contenedor">
+        <h1>Crear Cuadrangular</h1>
+        <form name="formulario" id="formulario" method="get" >
+            <p>Nombre: </p>
+            <input type="text" name="nombre" id="nombre" required>
+            <p>Primer Equipo: </p>
+            <input type="text" name="equipo1" id="equipo1" required>
+            <p>Segundo Equipo: </p>
+            <input type="text" name="equipo2" id="equipo2" required>
+            <p>Tercer Equipo: </p>
+            <input type="text" name="equipo3" id="equipo3" required>
+            <p>Cuarto Equipo: </p>
+            <input type="text" name="equipo4" id="equipo4" required>
+            <p>
+              <input type="submit" id="btn" value="Enviar">
+              <input type="reset" value="Borrar">
+            </p>
+        </form>
+        <script type="module" src="../js/cuadrangular.js"></script>
+
+    </div>
+</body>
+</html>

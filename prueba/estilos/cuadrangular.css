@@ -1,0 +1,13 @@
+.contenedor{
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: 200vh;
+    background-image: url("https://wallpaperaccess.com/full/1398611.jpg");
+}
+
+form{
+
+    margin-left: 100px;
+}
